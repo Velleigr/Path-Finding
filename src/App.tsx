@@ -208,6 +208,12 @@ function App() {
     const startTime = performance.now();
 
     try {
+    // const response = await fetch("http://localhost:8000/search", {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify(requestbody),
+    // });
+
     const response = await fetch("http://localhost:8000/search", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
