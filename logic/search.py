@@ -19,7 +19,8 @@ app = FastAPI()
 #  CORS configuration to allow requests from specific origins
 origins = [
     "http://localhost:5173",
-    "https://path-finding-nu.vercel.app"
+    "https://path-finding-nu.vercel.app", 
+    "https://path-finding-backend.onrender.com"
 ]
 
 
