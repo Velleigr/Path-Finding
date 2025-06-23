@@ -213,7 +213,7 @@ function App() {
     //   body: JSON.stringify(requestbody),
     // });
 
-    const response = await fetch("http://localhost:8000/search", {
+    const response = await fetch("https://path-finding-backend.onrender.com", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(requestbody),

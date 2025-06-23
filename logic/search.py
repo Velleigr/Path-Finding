@@ -20,7 +20,6 @@ app = FastAPI()
 origins = [
     "http://localhost:5173",
     "https://path-finding-nu.vercel.app", 
-    "https://path-finding-backend.onrender.com"
 ]
 
 
