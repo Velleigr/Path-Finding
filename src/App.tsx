@@ -117,6 +117,7 @@ function App() {
     setStats(null);
   }, []);
 
+  
 
   const handleSpeedChange = useCallback((speed: number) => {
     setVisualizationState(prev => ({ ...prev, speed }));
